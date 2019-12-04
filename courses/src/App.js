@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/header'
-import Courses from './Components/courses'
+import Header from './Components/Header/header'
+import Courses from './Components/Courses/courses'
 
 class App extends React.Component{
   constructor(props){
@@ -11,7 +11,11 @@ class App extends React.Component{
 
   render(){
     return(
-      <Courses/>
+      <div>
+      {/* <Header/> */}
+      <Courses></Courses>
+      </div>
+     
     )
   }
 }
