@@ -36,7 +36,7 @@ class Courses extends React.Component {
       <div>
         Courses
         <MDBCol md="12">
-          <MDBFormInline className="md-form mr-auto mb-4">
+          <MDBFormInline className="md-form mr-auto mb-4" onSubmit = {this.handleSubmit}>
             <input
               className="form-control mr-sm-2"
               type="text"
