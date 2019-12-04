@@ -12,7 +12,8 @@ class Courses extends React.Component {
     this.state = {
       courseData: [""],
       courses: [],
-      value: "",
+      value: '',
+      search: '',
       loading: false,
       CoursesPerPage: [75],
       currentPage: [1],
@@ -37,10 +38,13 @@ class Courses extends React.Component {
 
   handleInput = (e) => {
     this.setState({ value: e.target.value });
-    console.log(this.state.value);
+    // console.log(this.state.value);
   };
 
   handleSubmit = (e) => {
+      e.preventDefault();
+      this.setState({search: this.state.value})
+      console.log(this.state.search);
   };
 
   render() {
