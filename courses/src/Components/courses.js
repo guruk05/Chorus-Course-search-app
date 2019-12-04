@@ -1,7 +1,9 @@
 import React from "react";
 import axios from "axios";
 import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
-import 'mdbreact / dist / css / mdb.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
 
 class Courses extends React.Component {
   constructor(props) {
@@ -32,29 +34,26 @@ class Courses extends React.Component {
     console.log("ComponentDidMOunt is Running");
   };
 
-  handleInput = () => {
+  handleInput = () => {};
 
-  }
-
-  handleSubmit = () => {
-
-  }
-
-
+  handleSubmit = () => {};
 
   render() {
     return (
       <div>
         Courses
         <MDBCol md="12">
-          <MDBFormInline className="md-form mr-auto mb-4" onSubmit = {this.handleSubmit}>
+          <MDBFormInline
+            className="md-form mr-auto mb-4"
+            onSubmit={this.handleSubmit}
+          >
             <input
               className="form-control mr-sm-2"
               type="text"
               placeholder="Search"
               aria-label="Search"
-              value = {this.state.value}
-              onChange = {this.handleInput}
+              value={this.state.value}
+              onChange={this.handleInput}
             />
             <MDBBtn
               color="unique"
