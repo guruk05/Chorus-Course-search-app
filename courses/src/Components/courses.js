@@ -26,15 +26,37 @@ class Courses extends React.Component {
     const data = await fetch(url);
     const courseData = await data.json();
     this.setState({ courseData: courseData });
-    console.log(this.state.courseData)
+    console.log(this.state.courseData);
     this.setState({ loading: false });
     console.log("ComponentDidMOunt is Running");
   };
 
   render() {
-    return <div>Courses</div>;
+    return (
+      <div>
+        Courses
+        <MDBCol md="12">
+          <MDBFormInline className="md-form mr-auto mb-4">
+            <input
+              className="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <MDBBtn
+              color="unique"
+              rounded
+              size="sm"
+              type="submit"
+              className="mr-auto"
+            >
+              Search
+            </MDBBtn>
+          </MDBFormInline>
+        </MDBCol>
+      </div>
+    );
   }
 }
-
 
 export default Courses;
