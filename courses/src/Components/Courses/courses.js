@@ -51,6 +51,7 @@ class Courses extends React.Component {
           course["Child Subject"] === this.state.value ||
           course.Provider === this.state.value
       );
+      this.setState({courseData: filteredCourses});
   };
 
   render() {
