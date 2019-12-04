@@ -22,10 +22,10 @@ class Courses extends React.Component {
   getData = async () => {
     const url = "https://nut-case.s3.amazonaws.com/coursessc.json";
     this.setState({ loading: true });
-    const data = await axios.get(url);
+    const data = await fetch(url);
     const courseData = await data.json();
-    const courses = courseData.data;
-    this.setState({ courseData: courses });
+    this.setState({ courseData: courseData });
+    console.log(this.state.courseData)
     this.setState({ loading: false });
     console.log("ComponentDidMOunt is Running");
   };
@@ -34,3 +34,6 @@ class Courses extends React.Component {
     return <div>Courses</div>;
   }
 }
+
+
+export default Courses;
