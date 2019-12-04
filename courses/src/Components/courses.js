@@ -8,7 +8,7 @@ class Courses extends React.Component {
     this.state = {
       courseData: [],
       courses: [],
-      value: "",
+      search: "",
       loading: false,
       CoursesPerPage: [75],
       currentPage: [1],
@@ -42,6 +42,8 @@ class Courses extends React.Component {
               type="text"
               placeholder="Search"
               aria-label="Search"
+              value = {this.state.value}
+              onChange = {this.handleInput}
             />
             <MDBBtn
               color="unique"
