@@ -32,6 +32,13 @@ class Courses extends React.Component {
     console.log("ComponentDidMOunt is Running");
   };
 
+  handleInput = () => {
+
+  }
+
+
+  
+
   render() {
     return (
       <div>
