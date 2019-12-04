@@ -12,7 +12,7 @@ class Courses extends React.Component {
     this.state = {
       courseData: [""],
       courses: [],
-      search: "",
+      value: "",
       loading: false,
       CoursesPerPage: [75],
       currentPage: [1],
@@ -35,9 +35,13 @@ class Courses extends React.Component {
     console.log("ComponentDidMOunt is Running");
   };
 
-  handleInput = () => {};
+  handleInput = (e) => {
+    this.setState({ value: e.target.value });
+    console.log(this.state.value);
+  };
 
-  handleSubmit = () => {};
+  handleSubmit = (e) => {
+  };
 
   render() {
     return (
@@ -67,9 +71,9 @@ class Courses extends React.Component {
             </MDBBtn>
           </MDBFormInline>
         </div>
-        {this.courseData.map(courses => {
-          return( <div>{courses.Provider}</div>;
-        })}
+        {/* {this.courseData.map(courses => {
+          return( <div>{courses.Provider}</div> );
+        })} */}
       </div>
     );
   }
