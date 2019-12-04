@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
+import 'mdbreact / dist / css / mdb.css';
 
 class Courses extends React.Component {
   constructor(props) {
