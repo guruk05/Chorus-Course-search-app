@@ -4,7 +4,7 @@ import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import './style.css';
+import "./style.css";
 
 class Courses extends React.Component {
   constructor(props) {
@@ -35,9 +35,7 @@ class Courses extends React.Component {
     console.log("ComponentDidMOunt is Running");
   };
 
-  handleInput = () => {
-      
-  };
+  handleInput = () => {};
 
   handleSubmit = () => {};
 
@@ -45,7 +43,7 @@ class Courses extends React.Component {
     return (
       <div>
         Courses
-        <div className = "searchForm">
+        <div className="searchForm">
           <MDBFormInline
             className="md-form mr-auto mb-4"
             onSubmit={this.handleSubmit}
@@ -68,15 +66,10 @@ class Courses extends React.Component {
               Search
             </MDBBtn>
           </MDBFormInline>
-      </div>
-      {this.courseData.map((courses) => {
-          return(
-              <div>
-                  {courses.Provider}
-                  </div>
-          )
-      })
-      }
+        </div>
+        {this.courseData.map(courses => {
+          return( <div>{courses.Provider}</div>;
+        })}
       </div>
     );
   }
