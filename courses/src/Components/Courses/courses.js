@@ -10,7 +10,7 @@ class Courses extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      courseData: [""],
+      courseData: [],
       courses: [],
       value: '',
       search: '',
@@ -45,6 +45,12 @@ class Courses extends React.Component {
       e.preventDefault();
       this.setState({search: this.state.value})
       console.log(this.state.search);
+      let filteredCourses = this.state.courseData.filter(
+        course =>
+          course["Next Session Date"] === this.state.value ||
+          course["Child Subject"] === this.state.value ||
+          course.Provider === this.state.value
+      );
   };
 
   render() {
@@ -75,9 +81,9 @@ class Courses extends React.Component {
             </MDBBtn>
           </MDBFormInline>
         </div>
-        {/* {this.courseData.map(courses => {
+        {this.state.courseData.map(courses => {
           return( <div>{courses.Provider}</div> );
-        })} */}
+        })}
       </div>
     );
   }
