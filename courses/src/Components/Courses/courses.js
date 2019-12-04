@@ -31,6 +31,7 @@ class Courses extends React.Component {
     const data = await fetch(url);
     const courseData = await data.json();
     this.setState({ courseData: courseData });
+    this.setState({ courses: courseData })
     console.log(this.state.courseData);
     this.setState({ loading: false });
     console.log("ComponentDidMOunt is Running");
@@ -52,6 +53,7 @@ class Courses extends React.Component {
           course.Provider === this.state.value
       );
       this.setState({courseData: filteredCourses});
+      this.setState({courseData})
   };
 
   render() {
