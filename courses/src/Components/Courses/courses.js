@@ -12,12 +12,13 @@ class Courses extends React.Component {
     this.state = {
       courseData: [],
       courses: [],
-      value: '',
-      search: '',
+      value: "",
+      search: "",
       loading: false,
       CoursesPerPage: [75],
       currentPage: [1],
-      indexOfAllJobs: "1709"
+      indexOfAllJobs: "1709",
+      filteredData: []
     };
   }
 
@@ -30,35 +31,29 @@ class Courses extends React.Component {
     this.setState({ loading: true });
     const data = await fetch(url);
     const courseData = await data.json();
-    this.setState({ courseData: courseData });
-    this.setState({ courses: courseData })
+    this.setState({ courseData: courseData, filteredData: courseData });
     console.log(this.state.courseData);
     this.setState({ loading: false });
     console.log("ComponentDidMOunt is Running");
   };
 
-  handleInput = (e) => {
+  handleInput = e => {
     this.setState({ value: e.target.value });
-    // console.log(this.state.value);
   };
 
-  handleSubmit = (e) => {
-      e.preventDefault();
-      this.setState({search: this.state.value});
-      console.log(this.state.search);
-      let filteredCourses = this.state.courseData.filter(
-        course => 
-          course["Next Session Date"] === this.state.value ||
-          course["Child Subject"] === this.state.value ||
-          course.Provider === this.state.value
-      );
-      this.setState({courseData: filteredCourses});
-       this.state.courseData.map(courses => {
-          console.log(courses.Provider);
-        }) 
+  handleSubmit = e => {
+    e.preventDefault();
+    console.log(this.state.search);
+    let filteredCourses = this.state.courseData.filter(
+      course =>
+        course["Next Session Date"] === this.state.value ||
+        course["Child Subject"].toLowerCase() ===
+          this.state.value.toLowerCase() ||
+        course.Provider.toLowerCase() === this.state.value.toLowerCase()
+    );
+    console.log(filteredCourses);
+    this.setState({ filteredData: filteredCourses });
   };
-
-  
 
   render() {
     return (
@@ -88,9 +83,9 @@ class Courses extends React.Component {
             </MDBBtn>
           </MDBFormInline>
         </div>
-        {/* {this.state.courseData.map(courses => {
-          return(<div>{courses.Provider}</div>);
-        })} */}
+        {this.state.filteredData.map(courses => {
+          return <div>{courses.Provider}</div>;
+        })}
       </div>
     );
   }
