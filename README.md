@@ -33,7 +33,7 @@ Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Ad
 
 <br>
 
-![Web 1280 – 1@2x](https://user-images.githubusercontent.com/54667515/70258783-d269fb80-17b2-11ea-8d37-5d8bdb34e533.png)
+![Web 1280 – 1@2x](https://user-images.githubusercontent.com/54667515/70259757-d6971880-17b4-11ea-997d-cad3a16c4012.png)
 
 
 # To run this project locally 
