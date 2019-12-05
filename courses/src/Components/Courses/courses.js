@@ -3,7 +3,7 @@ import Form from "../Form/form";
 import { Card, Button, ListGroup, Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import myImage from "./cardImage.png";
+import courseImage from "./cardImage.png";
 import DisplayCard from "../Card/card";
 import { IoLogoYoutube } from "react-icons/io";
 
@@ -36,7 +36,7 @@ class Courses extends React.Component {
 
   // Method to receive data from child
 
-  receiveDataFromChild = async data => {
+  receiveDataFromForm = async data => {
     await this.setState({ value: data });
     this.filterData();
   };
@@ -44,7 +44,6 @@ class Courses extends React.Component {
   // Method to filterData based on user search
 
   filterData = () => {
-    console.log(this.state.value);
     let filteredCourses = this.state.courseData.filter(
       course =>
         course["Child Subject"].toLowerCase() ===
@@ -84,7 +83,7 @@ class Courses extends React.Component {
 
         {/* Receiving data from Form component as Callback */}
 
-        <Form sendDataToParent={this.receiveDataFromChild} />
+        <Form sendDataToCourses={this.receiveDataFromForm} />
         <h4 className="indexOfJobs">
           Total courses found : {this.state.indexOfAllCourses}
         </h4>
@@ -121,7 +120,7 @@ class Courses extends React.Component {
                     <Card.Img
                       variant="top"
                       style={{ width: "18rem", border: "1px solid #ddd" }}
-                      src={myImage}
+                      src={courseImage}
                       defaultValue="Preview"
                     />
                     <p className="overlay">

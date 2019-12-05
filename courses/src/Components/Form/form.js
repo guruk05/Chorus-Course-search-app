@@ -16,10 +16,10 @@ class Form extends React.Component {
   };
 
   // Method for passing data to Course component 
-  
-  sendDataToParent = e => {
+
+  sendDataToCourses = e => {
     e.preventDefault();
-    this.props.sendDataToParent(this.state.value);
+    this.props.sendDataToCourses(this.state.value);
   };
 
   render() {
@@ -27,7 +27,7 @@ class Form extends React.Component {
       <Jumbotron className="jumbotron" fluid>
         <Container>
           <h1>Find Your dream courses here</h1>
-          <form onSubmit={this.sendDataToParent} noValidate autoComplete="off">
+          <form onSubmit={this.sendDataToCourses} noValidate autoComplete="off">
             <TextField
               style={{ width: "35rem" }}
               id="standard-basic"
