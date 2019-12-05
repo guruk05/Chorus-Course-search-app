@@ -48,7 +48,7 @@ Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Ad
 
 ![cardImage@2x](https://user-images.githubusercontent.com/54667515/70257296-055ec000-17b0-11ea-9d65-4bbbfda64c38.png)
 
-#### <i>Card Design</i>
+#### <i>Main Card Design</i>
 
 <br>
 
