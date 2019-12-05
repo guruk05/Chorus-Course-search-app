@@ -14,4 +14,5 @@ Handling.
 * ####  <a href="https://reactjs.org/"> React Js </a> 
 * ####  <a href="https://react-bootstrap.github.io/">React Bootstrap</a>
 * ####  <a href="https://babeljs.io/">Babel</a>
+* ####  <a href="https://github.com/prettier/prettier">Prettier</a>
 
