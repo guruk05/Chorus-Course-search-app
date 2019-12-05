@@ -20,17 +20,26 @@ Users can view all the courses and can Search for courses with respect to Provid
 
 ![chorus1](https://user-images.githubusercontent.com/54667515/70256517-99c82300-17ae-11ea-9370-791176c64049.PNG)
 
+
+
 #### <i>Home Page</i>
+
 
 
 ![chorus2](https://user-images.githubusercontent.com/54667515/70256528-9d5baa00-17ae-11ea-827d-2867d2cba1fa.PNG)
 
+
+
 #### <i>Jumbotron</i>
+
 
 
 ![chorus3](https://user-images.githubusercontent.com/54667515/70256535-a0569a80-17ae-11ea-8540-d8d5a6ce74d6.PNG)
 
+
+
 #### <i>Course Content</i>
+
 
 
 # Design
