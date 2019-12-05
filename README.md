@@ -5,3 +5,5 @@ A Chorus is a Web based Application developed in React Js. Handling large amount
 # Chorus 
 
 Chorus is a Course Search Application , which displays bestselling courses provided by various educational companies and online learning platforms at one place.
+
+Users can view all the courses and can search for courses with respect to provider or subject.
