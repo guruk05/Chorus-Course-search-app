@@ -31,7 +31,7 @@ Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Ad
 ![cardImage@2x](https://user-images.githubusercontent.com/54667515/70257296-055ec000-17b0-11ea-9d65-4bbbfda64c38.png)
 
 
-![Web 1280 – 1@2x](https://user-images.githubusercontent.com/54667515/70258040-836f9680-17b1-11ea-9556-2fcc9bbc0b29.png)
+![Mask Group 1@2x@2x](https://user-images.githubusercontent.com/54667515/70258461-4b1c8800-17b2-11ea-9880-26ed4181a4da.png)
 
 
 # To run this project locally 
