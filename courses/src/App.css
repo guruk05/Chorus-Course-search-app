@@ -1,24 +1,25 @@
+
 .searchForm {
-  width: 80rem;
-  margin-left: 70em;
+  width: 80vw;
+  margin-left: 70vw;
 }
 
 .courses {
   margin: 0 auto;
   position: relative;
   float: none;
-  margin-top: 4em;
-  width: 70em;
+  margin-top: 4vw;
+  width: 70vw;
   color: black;
 }
 
 .apply {
-  margin-right: 7em;
+  margin-right: 7vw;
   color: white;
   justify-content: right;
 }
 
-.apply:hover {
+.apply:hover {   
   color: white;
 }
 
@@ -32,13 +33,12 @@
 
 .image {
   position: relative;
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-top: 1vw;
+  margin-left: 1vw;
 }
 
 .overlay {
-  margin-left: 6em;
-  /* width:10rem; */
+  margin-left: 6vw;
 }
 
 .videoButton {
@@ -53,26 +53,25 @@
 
 .list-group-flush {
   position: absolute;
-  height: 50em;
-  margin-top: 2em;
-  margin-left: 70em;
+  height: 50vw;
+  margin-top: 2vw;
+  margin-left: 70vw;
 }
 
 .searchText {
   text-align: center;
-  margin-top: 3em;
+  margin-top: 3vw;
 }
 
 .fields {
-  /* width:2%; */
   text-align: center;
 }
 
 .search-Form {
-  margin-top: 2.5em;
-  margin-left: 3em;
-  width: 26em;
-  height: 2.3em;
+  margin-top: 2.5vw;
+  margin-left: 3vw;
+  width: 26vw;
+  height: 2.3vw;
   border-style: groove;
 }
 
@@ -82,41 +81,39 @@
 }
 
 .searchButton {
-  margin-left: 1em;
-  margin-top: 1em;
-  height: 2.3em;
-  width: 5em;
+  margin-left: 1vw;
+  margin-top: 1vw;
+  height: 5vh;
+  width: 5vw;
 }
 
 .jumbotron {
-  margin-top: 5em;
-  height: 20em;
+  margin-top: 5vw;
+  height: 20vw;
 }
 
 .links {
   display: inline-block;
 }
 
-.indexOfJobs{
-  /* justify-content: right; */
-  margin-left: 6em;
-  margin-top: 5em;
+.indexOfJobs {
+  margin-left: 9vw;
+  margin-top: 7vw;
 }
 
-.text{
-  margin-top: 4em;
+.text {
+  margin-top: 4vw;
 }
 
-.sortButton{
-  margin-left: 85em;
-  margin-top: 0em;
-  /* margin-bottom: 10em; */
+.sortButton {
+  margin-left: 75vw;
+  margin-top: 0vw;
 }
 
-.loader{
+.loader {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top:20rem; 
-  margin-left: 50rem;
+  margin-top: 20vw;
+  margin-left: 45vw;
 }
