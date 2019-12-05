@@ -9,7 +9,8 @@ Chorus is a Course Search Application , which displays bestselling courses provi
 
 Users can view all the courses and can Search for courses with respect to Provider or Subject and Sort the search results with respect to length of the course. Number of courses offered are also displayed in the application.
 
-* <a href=""> See Live App </a> 
+
+<a href=""> See Live App </a> 
 
 # Stack
 
