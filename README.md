@@ -48,10 +48,15 @@ Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Ad
 
 ![cardImage@2x](https://user-images.githubusercontent.com/54667515/70257296-055ec000-17b0-11ea-9d65-4bbbfda64c38.png)
 
+#### <i>Card Design<i>
 
 <br>
 
 ![Web 1280 – 1@2x](https://user-images.githubusercontent.com/54667515/70259957-4f967000-17b5-11ea-93c9-3e06c1d0b2fb.png)
+
+
+#### <i>Horizontal Card Design<i>
+
 
 
 # To run this project locally 
