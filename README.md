@@ -1,6 +1,7 @@
 # Chorus : A Modern React Application
 
-A Chorus is a Web based Application developed in React Js. Handling large amount of data without affecting the performance are the key factors in this setup.
+A Chorus is a Web based Application developed in * ####  <a href="https://reactjs.org/"> React Js </a> 
+. Handling large amount of data without affecting the performance are the key factors in this setup.
 
 # Chorus 
 
@@ -23,3 +24,50 @@ Handling.
 ![chorus2](https://user-images.githubusercontent.com/54667515/70256528-9d5baa00-17ae-11ea-827d-2867d2cba1fa.PNG)
 
 ![chorus3](https://user-images.githubusercontent.com/54667515/70256535-a0569a80-17ae-11ea-8540-d8d5a6ce74d6.PNG)
+
+# Design
+
+Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Adobe XD</a>
+
+![cardImage@2x](https://user-images.githubusercontent.com/54667515/70257296-055ec000-17b0-11ea-9d65-4bbbfda64c38.png)
+
+![Mask Group 1@2x@2x](https://user-images.githubusercontent.com/54667515/70257420-3f2fc680-17b0-11ea-8fad-b1de03c8f982.png)
+
+
+# To run this project locally 
+
+
+
+### Clone the project using Git Bash / Command prompt:
+```
+git clone https://github.com/guruk05/Chorus-Course-search-app.git 
+```
+
+
+### Navigate inside the directory by:
+```
+cd courses
+```
+
+
+### Install all required packages:
+```
+npm install
+```
+
+### Run dev server:
+```
+npm start
+```
+
+### Open your browser at http://localhost:3000/
+
+<br>
+
+# Author 
+
+* #### <a href="https://github.com/guruk05">Guru Prasath</a>
+
+<br>
+
+
