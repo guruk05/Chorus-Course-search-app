@@ -1,37 +1,122 @@
-.App {
+.searchForm {
+  width: 80rem;
+  margin-left: 70em;
+}
+
+.courses {
+  margin: 0 auto;
+  position: relative;
+  float: none;
+  margin-top: 4em;
+  width: 70em;
+  color: black;
+}
+
+.apply {
+  margin-right: 7em;
+  color: white;
+  justify-content: right;
+}
+
+.apply:hover {
+  color: white;
+}
+
+.courseLink {
+  color: white;
+}
+
+.courseLink:hover {
+  color: white;
+}
+
+.image {
+  position: relative;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.overlay {
+  margin-left: 6em;
+  /* width:10rem; */
+}
+
+.videoButton {
+  color: black;
+}
+
+.videoButton:hover {
+  color: white;
+}
+
+
+
+.list-group-flush {
+  position: absolute;
+  height: 50em;
+  margin-top: 2em;
+  margin-left: 70em;
+}
+
+.searchText {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.fields {
+  /* width:2%; */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.search-Form {
+  margin-top: 2.5em;
+  margin-left: 3em;
+  width: 26em;
+  height: 2.3em;
+  border-style: groove;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+.search-Form:focus {
+  outline: none;
+  border-color: #3b444b;
+}
+
+.searchButton {
+  margin-left: 1em;
+  margin-top: 1em;
+  height: 2.3em;
+  width: 5em;
+}
+
+.jumbotron {
+  margin-top: 5em;
+  height: 20em;
+}
+
+.links {
+  display: inline-block;
+}
+
+.indexOfJobs{
+  /* justify-content: right; */
+  margin-left: 6em;
+  margin-top: 5em;
+}
+
+.text{
+  margin-top: 4em;
+}
+
+.sortButton{
+  margin-left: 85em;
+  margin-top: 0em;
+  /* margin-bottom: 10em; */
+}
+
+.loader{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  letter-spacing: 10px;
-  font-size: 2em;
+  margin-top:20rem; 
+  margin-left: 50rem;
 }
-
-.header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  letter-spacing: 5px;
-  font-size: 2.3em;
-
-}
-
-

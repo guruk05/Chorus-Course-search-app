@@ -1,1 +1,2 @@
-# React-Course-App
+# Chorus : A Modern React Application
+
