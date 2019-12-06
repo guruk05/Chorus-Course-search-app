@@ -3,7 +3,7 @@ import Form from "../Form/form";
 import { Card, Button, ListGroup, Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import courseImage from "./cardImage.png";
+import courseImage from "../../Public/cardImage.png";
 import Cards from "../Card/card";
 import { IoLogoYoutube } from "react-icons/io";
 
@@ -154,7 +154,7 @@ class Courses extends React.Component {
                     <p>{courses["Universities/Institutions"]}</p>
                     <p>{courses["Next Session Date"]}</p>
                     <p>{courses.Provider}</p>
-                    <p>{courses.Length}</p>
+                    <p>Length of the Course: {courses.Length}</p>
                     <br></br>
                   </ListGroup>
                   <Card.Body className="apply"></Card.Body>

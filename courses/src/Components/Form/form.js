@@ -2,6 +2,7 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import { Button, Container, Jumbotron } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './style.css';
 
 class Form extends React.Component {
   constructor(props) {
