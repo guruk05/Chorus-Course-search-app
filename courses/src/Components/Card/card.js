@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
 import cardImage from "./cardImage.png";
 
-class DisplayCard extends Component {
+class Cards extends Component {
   render() {
     return (
       // Displaying an image using react-Bootstrap card
@@ -15,4 +15,4 @@ class DisplayCard extends Component {
   }
 }
 
-export default DisplayCard;
+export default Cards;

@@ -4,7 +4,7 @@ import { Card, Button, ListGroup, Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 import courseImage from "./cardImage.png";
-import DisplayCard from "../Card/card";
+import Cards from "../Card/card";
 import { IoLogoYoutube } from "react-icons/io";
 
 class Courses extends React.Component {
@@ -75,11 +75,13 @@ class Courses extends React.Component {
       );
     }
 
+    https://chorus05.herokuapp.com/
+
     return (
       <div>
-        {/* Rendering the DisplayCard component */}
+        {/* Rendering the Card component */}
 
-        <DisplayCard></DisplayCard>
+        <Cards></Cards>
 
         {/* Receiving data from Form component as Callback */}
 
