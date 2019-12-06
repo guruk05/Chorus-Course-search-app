@@ -75,8 +75,6 @@ class Courses extends React.Component {
       );
     }
 
-    https://chorus05.herokuapp.com/
-
     return (
       <div>
         {/* Rendering the Card component */}
